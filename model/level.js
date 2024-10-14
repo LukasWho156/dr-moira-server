@@ -380,7 +380,7 @@ class Level extends EventTarget {
                 if (!floor.movement.isMoving && floor != this.pills[pill.connectedTo]) {
                     continue;
                 }
-                if (pill.connectedTo !== undefined) {
+                if (pill.connectedTo !== undefined && this.pills[pill.connectedTo].active) {
                     const p2 = this.pills[pill.connectedTo];
                     if (this.isWallAt(p2.x, p2.y, p2.z - 1)) {
                         continue;

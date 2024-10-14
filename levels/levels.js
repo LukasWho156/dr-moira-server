@@ -1,4 +1,3 @@
-import adrenalGland from './adrenal-gland.lvl.json' assert { type: "json" };
 import allergicReaction from './allergic-reaction.lvl.json' assert { type: "json" };
 import antibodies from './antibodies.lvl.json' assert { type: "json" };
 import anticoagulant from './anticoagulant.lvl.json' assert { type: "json" };
@@ -7,6 +6,7 @@ import antimicrobialResistance from './antimicrobial-resistance.lvl.json' assert
 import atlas from './atlas.lvl.json' assert { type: "json" };
 import axon from './axon.lvl.json' assert { type: "json" };
 import bloodBrainBarrier from './blood-brain-barrier.lvl.json' assert { type: "json" };
+import bloodClot from './blood-clot.lvl.json' assert { type: "json" };
 import bloodPressureRegulation from './blood-pressure-regulation.lvl.json' assert { type: "json" };
 import callostomy from './callostomy.lvl.json' assert { type: "json" };
 import capillaryForces from './capillary-forces.lvl.json' assert { type: "json" };
@@ -17,6 +17,7 @@ import chainReaction from './chain-reaction.lvl.json' assert { type: "json" };
 import circulation from './circulation.lvl.json' assert { type: "json" };
 import comorbidity from './comorbidity.lvl.json' assert { type: "json" };
 import constipation from './constipation.lvl.json' assert { type: "json" };
+import corona from './corona.lvl.json' assert { type: "json" };
 import dialysis from './dialysis.lvl.json' assert { type: "json" };
 import diplopia from './diplopia.lvl.json' assert { type: "json" };
 import endoscopicSurgery from './endoscopic-surgery.lvl.json' assert { type: "json" };
@@ -31,6 +32,7 @@ import inhibitionIi from './inhibition-ii.lvl.json' assert { type: "json" };
 import isletsOfLangerhans from './islets-of-langerhans.lvl.json' assert { type: "json" };
 import kidneyStone from './kidney-stone.lvl.json' assert { type: "json" };
 import lockedInSyndrome from './locked-in-syndrome.lvl.json' assert { type: "json" };
+import longTermStudy from './long-term-study.lvl.json' assert { type: "json" };
 import lymphDrainage from './lymph-drainage.lvl.json' assert { type: "json" };
 import medicationPlan from './medication-plan.lvl.json' assert { type: "json" };
 import micellae from './micellae.lvl.json' assert { type: "json" };
@@ -51,6 +53,7 @@ import phospholipidBilayer from './phospholipid-bilayer.lvl.json' assert { type:
 import phytomedicine from './phytomedicine.lvl.json' assert { type: "json" };
 import pitfalls from './pitfalls.lvl.json' assert { type: "json" };
 import plateaus from './plateaus.lvl.json' assert { type: "json" };
+import pneumothorax from './pneumothorax.lvl.json' assert { type: "json" };
 import pons from './pons.lvl.json' assert { type: "json" };
 import prenatalDiagnosticsI from './prenatal-diagnostics-i.lvl.json' assert { type: "json" };
 import prenatalDiagnosticsIi from './prenatal-diagnostics-ii.lvl.json' assert { type: "json" };
@@ -62,20 +65,23 @@ import siteOfInfection from './site-of-infection.lvl.json' assert { type: "json"
 import situsInversus from './situs-inversus.lvl.json' assert { type: "json" };
 import socialDistancing from './social-distancing.lvl.json' assert { type: "json" };
 import sodiumPotassiumPump from './sodium-potassium-pump.lvl.json' assert { type: "json" };
+import steadyPulse from './steady-pulse.lvl.json' assert { type: "json" };
 import sterileEnvironment from './sterile-environment.lvl.json' assert { type: "json" };
 import sustainedRelease from './sustained-release.lvl.json' assert { type: "json" };
+import synapse from './synapse.lvl.json' assert { type: "json" };
 import targetedDelivery from './targeted-delivery.lvl.json' assert { type: "json" };
 import thrombosis from './thrombosis.lvl.json' assert { type: "json" };
+import thymicBody from './thymic-body.lvl.json' assert { type: "json" };
 import todo from './todo.lvl.json' assert { type: "json" };
 import travellingSickness from './travelling-sickness.lvl.json' assert { type: "json" };
 import tripleTherapy from './triple-therapy.lvl.json' assert { type: "json" };
 import ulcus from './ulcus.lvl.json' assert { type: "json" };
 import unnamed2 from './unnamed-2.lvl.json' assert { type: "json" };
+import venaCava from './vena-cava.lvl.json' assert { type: "json" };
 import ventricularSeptalDefect from './ventricular-septal-defect.lvl.json' assert { type: "json" };
 import veterinaryMedicine from './veterinary-medicine.lvl.json' assert { type: "json" };
 import viralLoad from './viral-load.lvl.json' assert { type: "json" };
 const LEVELS = {
-    adrenalGland,
     allergicReaction,
     antibodies,
     anticoagulant,
@@ -84,6 +90,7 @@ const LEVELS = {
     atlas,
     axon,
     bloodBrainBarrier,
+    bloodClot,
     bloodPressureRegulation,
     callostomy,
     capillaryForces,
@@ -94,6 +101,7 @@ const LEVELS = {
     circulation,
     comorbidity,
     constipation,
+    corona,
     dialysis,
     diplopia,
     endoscopicSurgery,
@@ -108,6 +116,7 @@ const LEVELS = {
     isletsOfLangerhans,
     kidneyStone,
     lockedInSyndrome,
+    longTermStudy,
     lymphDrainage,
     medicationPlan,
     micellae,
@@ -128,6 +137,7 @@ const LEVELS = {
     phytomedicine,
     pitfalls,
     plateaus,
+    pneumothorax,
     pons,
     prenatalDiagnosticsI,
     prenatalDiagnosticsIi,
@@ -139,15 +149,19 @@ const LEVELS = {
     situsInversus,
     socialDistancing,
     sodiumPotassiumPump,
+    steadyPulse,
     sterileEnvironment,
     sustainedRelease,
+    synapse,
     targetedDelivery,
     thrombosis,
+    thymicBody,
     todo,
     travellingSickness,
     tripleTherapy,
     ulcus,
     unnamed2,
+    venaCava,
     ventricularSeptalDefect,
     veterinaryMedicine,
     viralLoad,
