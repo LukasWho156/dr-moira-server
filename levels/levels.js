@@ -4,6 +4,7 @@ import anticoagulant from './anticoagulant.lvl.json' assert { type: "json" };
 import antihistaminic from './antihistaminic.lvl.json' assert { type: "json" };
 import antimicrobialResistance from './antimicrobial-resistance.lvl.json' assert { type: "json" };
 import atlas from './atlas.lvl.json' assert { type: "json" };
+import autoimmuneDisease from './autoimmune-disease.lvl.json' assert { type: "json" };
 import axon from './axon.lvl.json' assert { type: "json" };
 import bloodBrainBarrier from './blood-brain-barrier.lvl.json' assert { type: "json" };
 import bloodClot from './blood-clot.lvl.json' assert { type: "json" };
@@ -88,6 +89,7 @@ const LEVELS = {
     antihistaminic,
     antimicrobialResistance,
     atlas,
+    autoimmuneDisease,
     axon,
     bloodBrainBarrier,
     bloodClot,
