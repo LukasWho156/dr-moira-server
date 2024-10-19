@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dr. Moira Solution Stats</title>
+        <style>
+            body {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .levelName {
+                text-align: right;
+            }
+            .bar {
+                background-color: teal;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <h1>Dr. Moira Solution Stats</h1>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th style="width: 256px;">Number of Solvers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <script defer>
+                    const parent = document.querySelector('tbody');
+                    fetch('/api/completitionCounts').then(res => {
+                        //console.log(res);
+                        return res.json();
+                    }).then(worlds => {
+                        const max = worlds.reduce((acc, world) => {
+                            console.log(acc);
+                            return Math.max(acc, world.reduce((acc, e) => Math.max(acc, e.solvers), 1));
+                        }, 1);
+                        console.log(max);
+                        worlds.forEach(world => {
+                            const row = document.createElement('tr');
+                            const cell = document.createElement('td');
+                            cell.colSpan = 2;
+                            cell.innerHTML = '<hr>';
+                            row.appendChild(cell);
+                            parent.appendChild(row);
+                            world.forEach(level => {
+                                console.log(level);
+                                const el = document.createElement('tr');
+                                const c1 = document.createElement('td');
+                                c1.textContent = level.levelName;
+                                c1.className = 'levelName';
+                                el.appendChild(c1);
+                                const c2 = document.createElement('td');
+                                const bar = document.createElement('div');
+                                bar.innerHTML = '&nbsp';
+                                bar.title = level.solvers;
+                                bar.className = 'bar';
+                                bar.style.width = `${level.solvers / max * 100}%`;
+                                console.log(bar, bar.style.width);
+                                c2.appendChild(bar);
+                                el.appendChild(c2);
+                                parent.appendChild(el);
+                            })
+                        })
+                    })
+                </script>
+            </tbody>
+        </table>
+    </body>
+</html>

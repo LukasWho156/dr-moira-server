@@ -1,0 +1,1829 @@
+[
+    {
+        "name": "Stomach",
+        "background": {
+            "texture": "stomach",
+            "x": 4576,
+            "y": 3812
+        },
+        "difficulty": 1,
+        "area": {
+            "left": 4221.444600694452,
+            "right": 6275.444288194437,
+            "top": -3775.422326388889,
+            "bottom": -5144.75545138889
+        },
+        "nodes": [
+            {
+                "type": "level",
+                "x": 5223.728631944444,
+                "y": -4131.33779513889,
+                "data": {
+                    "id": "pediatricDisease",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 5351.653647569444,
+                "y": -4287.54707638889,
+                "data": {
+                    "id": "ulcus",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 5367.300889756945,
+                "y": -4501.10213107639,
+                "data": {
+                    "id": "sideEffects",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 5286.276491319443,
+                "y": -4700.547826388891,
+                "data": {
+                    "id": "circulation",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 5092.237342881945,
+                "y": -4839.02871701389,
+                "data": {
+                    "id": "capillaryForces",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 5469.550827256942,
+                "y": -4775.92718576389,
+                "data": {
+                    "id": "minimalDosage",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5608.380085069444,
+                "y": -4608.45941232639,
+                "data": {
+                    "id": "sodiumPotassiumPump",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4805.8578585069445,
+                "y": -4883.529810763889,
+                "data": {
+                    "targetWorld": 1,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 5652.688250222946,
+                "y": -4404.307529513889,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                4,
+                7,
+                3
+            ],
+            [
+                6,
+                8,
+                6
+            ]
+        ],
+        "palette": [ 8723755, 5706011, 13925235, 14194054 ]
+    },
+    {
+        "name": "Intestine",
+        "background": {
+            "texture": "intestine",
+            "x": 3660,
+            "y": 4809
+        },
+        "difficulty": 2,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 4066.4077758314347,
+                "y": -4967.25958940972,
+                "data": {
+                    "targetWorld": 0,
+                    "targetNode": 7
+                }
+            },
+            {
+                "type": "level",
+                "x": 3951.9980929929993,
+                "y": -5214.39920659722,
+                "data": {
+                    "id": "lymphDrainage",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 4400.866396955703,
+                "y": -5107.834417534722,
+                "data": {
+                    "id": "multimorbidity",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 4214.931564909185,
+                "y": -5345.904690972222,
+                "data": {
+                    "id": "gastricTorsion",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4078.627919424268,
+                "y": -5595.311644097223,
+                "data": {
+                    "id": "inhibitionI",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4589.785964201194,
+                "y": -5434.3307925347235,
+                "data": {
+                    "id": "inhibitionIi",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4426.579846410963,
+                "y": -5701.876433159721,
+                "data": {
+                    "id": "thrombosis",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4242.3056608030465,
+                "y": -5958.085394097224,
+                "data": {
+                    "id": "veterinaryMedicine",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4794.552526861406,
+                "y": -5788.035198784723,
+                "data": {
+                    "id": "antimicrobialResistance",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3917.6470678617675,
+                "y": -6132.670261284726,
+                "data": {
+                    "targetWorld": 2,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4883.766881933435,
+                "y": -6080.5215347222265,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 2
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                7,
+                9,
+                5
+            ],
+            [
+                8,
+                10,
+                8
+            ]
+        ],
+        "area": {
+            "left": 3099.1941493055674,
+            "right": 5547.916961805542,
+            "top": -4701.981284722218,
+            "bottom": -6334.463159722225
+        },
+        "palette": [
+            13659488,
+            12074291,
+            16239038,
+            16440546
+        ]
+    },
+    {
+        "name": "Colon",
+        "background": {
+            "texture": "colon",
+            "x": 3192,
+            "y": 4492
+        },
+        "difficulty": 3,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 3696.266531131326,
+                "y": -6115.48794618056,
+                "data": {
+                    "targetWorld": 1,
+                    "targetNode": 9
+                }
+            },
+            {
+                "type": "level",
+                "x": 3470.4880824161164,
+                "y": -6049.62450868056,
+                "data": {
+                    "id": "targetedDelivery",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3538.6798953433627,
+                "y": -6467.857336805563,
+                "data": {
+                    "id": "allergicReaction",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3399.485495837748,
+                "y": -5519.423836805556,
+                "data": {
+                    "id": "antihistaminic",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3423.1808965945847,
+                "y": -5025.448055555551,
+                "data": {
+                    "id": "sterileEnvironment",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3763.6672109714214,
+                "y": -4719.183071180549,
+                "data": {
+                    "id": "influenza",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4368.642823535511,
+                "y": -4617.094743055549,
+                "data": {
+                    "id": "medicationPlan",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4974.158722110329,
+                "y": -4791.632852430549,
+                "data": {
+                    "id": "siteOfInfection",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5172.134953189421,
+                "y": -5315.247180555555,
+                "data": {
+                    "id": "viralLoad",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "level",
+                "x": 5199.441908649014,
+                "y": -5911.311289930558,
+                "data": {
+                    "id": "perestalsis",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4982.49456341891,
+                "y": -6444.805133680564,
+                "data": {
+                    "id": "overdose",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4523.872140002777,
+                "y": -6507.3753993055625,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 4
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3166.1591229129453,
+                "y": -4808.09871180555,
+                "data": {
+                    "targetWorld": 6,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 5408.674098285244,
+                "y": -5410.749164930555,
+                "data": {
+                    "targetWorld": 4,
+                    "targetNode": 0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                9,
+                10
+            ],
+            [
+                8,
+                13,
+                6
+            ],
+            [
+                4,
+                12,
+                6
+            ],
+            [
+                10,
+                11,
+                10
+            ]
+        ],
+        "area": {
+            "left": 2476.9760763889017,
+            "right": 6033.601701388877,
+            "top": -4416.813680555546,
+            "bottom": -6787.897430555566
+        },
+        "palette": [
+            10044467,
+            6693393,
+            14522726,
+            16755336
+        ]
+    },
+    {
+        "name": "Right Kidney",
+        "background": {
+            "texture": "rightKidney",
+            "x": 2565,
+            "y": 5057
+        },
+        "difficulty": 2,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 2916.3275138075082,
+                "y": -5442.03536111111,
+                "data": {
+                    "targetWorld": 4,
+                    "targetNode": 6
+                }
+            },
+            {
+                "type": "level",
+                "x": 2701.2590017530647,
+                "y": -5436.92273611111,
+                "data": {
+                    "id": "phospholipidBilayer",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 2743.907799665662,
+                "y": -5290.811322048611,
+                "data": {
+                    "id": "antibodies",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 2847.6843512098512,
+                "y": -5188.960423611109,
+                "data": {
+                    "id": "sustainedRelease",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 2744.248239454481,
+                "y": -5586.467017361112,
+                "data": {
+                    "id": "constipation",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 2842.507749372694,
+                "y": -5692.553986111111,
+                "data": {
+                    "id": "bloodBrainBarrier",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "exit",
+                "x": 2974.2026614210326,
+                "y": -5135.557689236106,
+                "data": {
+                    "targetWorld": 5,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 2990.2559884779193,
+                "y": -5750.989025173616,
+                "data": {
+                    "targetWorld": 5,
+                    "targetNode": 6
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                6,
+                3
+            ],
+            [
+                5,
+                7,
+                5
+            ]
+        ],
+        "area": {
+            "left": 2156.378211805554,
+            "right": 3623.5328993055564,
+            "top": -4983.6595486111055,
+            "bottom": -5961.762673611116
+        },
+        "palette": [
+            5605410,
+            4482577,
+            13421704,
+            15663018
+        ]
+    },
+    {
+        "name": "Left Kidney",
+        "background": {
+            "texture": "leftKidney",
+            "x": 5438,
+            "y": 5072
+        },
+        "difficulty": 2,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 5625.364769076878,
+                "y": -5448.46057638889,
+                "data": {
+                    "targetWorld": 2,
+                    "targetNode": 13
+                }
+            },
+            {
+                "type": "level",
+                "x": 5854.291314059787,
+                "y": -5453.37482638889,
+                "data": {
+                    "id": "comorbidity",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5825.525674899631,
+                "y": -5339.118513888889,
+                "data": {
+                    "id": "situsInversus",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5734.434484225802,
+                "y": -5234.690701388888,
+                "data": {
+                    "id": "anticoagulant",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5830.31994809299,
+                "y": -5586.05957638889,
+                "data": {
+                    "id": "minimalDosageIi",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5733.235915927463,
+                "y": -5697.85876388889,
+                "data": {
+                    "id": "osSacrum",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 5603.79053970676,
+                "y": -5142.548513888888,
+                "data": {
+                    "targetWorld": 3,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 5584.613446933323,
+                "y": -5762.97257638889,
+                "data": {
+                    "targetWorld": 5,
+                    "targetNode": 8
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                6,
+                3
+            ],
+            [
+                5,
+                7,
+                5
+            ]
+        ],
+        "area": {
+            "left": 5025.4651388888915,
+            "right": 6352.312638888886,
+            "top": -5041.806388888888,
+            "bottom": -5926.371388888891
+        },
+        "palette": [
+            5605410,
+            4482577,
+            13421704,
+            15663018
+        ]
+    },
+    {
+        "name": "Bladder",
+        "background": {
+            "texture": "bladder",
+            "x": 3666,
+            "y": 6427
+        },
+        "difficulty": 3,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 4125.9107496897395,
+                "y": -6576.031378472218,
+                "data": {
+                    "targetWorld": 3,
+                    "targetNode": 6
+                }
+            },
+            {
+                "type": "level",
+                "x": 4128.9144612986265,
+                "y": -6737.08459722222,
+                "data": {
+                    "id": "prenatalDiagnosticsI",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 4130.377768442791,
+                "y": -6906.032581597222,
+                "data": {
+                    "id": "autoimmuneDisease",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4133.535674692792,
+                "y": -7101.822769097224,
+                "data": {
+                    "id": "prenatalDiagnosticsIi",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4035.756226923625,
+                "y": -7284.981331597225,
+                "data": {
+                    "targetWorld": 6,
+                    "targetNode": 9
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4244.367698832195,
+                "y": -7284.981331597225,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 6
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3842.3221335398384,
+                "y": -6770.242612847221,
+                "data": {
+                    "targetWorld": 3,
+                    "targetNode": 7
+                }
+            },
+            {
+                "type": "level",
+                "x": 3922.4231657053656,
+                "y": -6967.611753472223,
+                "data": {
+                    "id": "kidneyStone",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4422.746227457683,
+                "y": -6776.558425347221,
+                "data": {
+                    "targetWorld": 4,
+                    "targetNode": 7
+                }
+            },
+            {
+                "type": "level",
+                "x": 4335.482854212443,
+                "y": -6969.190706597223,
+                "data": {
+                    "id": "micellae",
+                    "difficulty": 2
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                4,
+                2
+            ],
+            [
+                3,
+                5,
+                5
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                7,
+                2,
+                5
+            ],
+            [
+                9,
+                2,
+                5
+            ]
+        ],
+        "area": {
+            "left": 3311.631979166672,
+            "right": 5016.9013541666645,
+            "top": -6383.399097222216,
+            "bottom": -7520.245347222228
+        },
+        "palette": [ 15324995, 12360996, 15135384, 14477754 ]
+    },
+    {
+        "name": "Liver",
+        "background": {
+            "texture": "liver",
+            "x": 2872,
+            "y": 3740
+        },
+        "difficulty": 2,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 3065.584239132363,
+                "y": -4770.988531249999,
+                "data": {
+                    "targetWorld": 2,
+                    "targetNode": 12
+                }
+            },
+            {
+                "type": "level",
+                "x": 3226.9735373959106,
+                "y": -4568.2466875,
+                "data": {
+                    "id": "phytomedicine",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3176.9473413052133,
+                "y": -4266.290750000003,
+                "data": {
+                    "id": "pitfalls",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3562.1686395840165,
+                "y": -4630.7947031250005,
+                "data": {
+                    "id": "minimalDosageIii",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3417.1914553341403,
+                "y": -4029.0396562500036,
+                "data": {
+                    "id": "travellingSickness",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3828.2399278988314,
+                "y": -4499.2281875,
+                "data": {
+                    "id": "callostomy",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3745.9666238064256,
+                "y": -3947.0801875000043,
+                "data": {
+                    "id": "axon",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4003.2547350887708,
+                "y": -4277.074890625002,
+                "data": {
+                    "id": "fallingSickness",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4075.057733898585,
+                "y": -4013.941859375003,
+                "data": {
+                    "targetWorld": 9,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4864.394923000744,
+                "y": -4064.4162968750034,
+                "data": {
+                    "targetWorld": 5,
+                    "targetNode": 4
+                }
+            },
+            {
+                "type": "level",
+                "x": 4801.951261373933,
+                "y": -3927.018589403395,
+                "data": {
+                    "id": "socialDistancing",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4599.928450432237,
+                "y": -3932.2270124299553,
+                "data": {
+                    "id": "isletsOfLangerhans",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4591.987814873157,
+                "y": -4140.888110808613,
+                "data": {
+                    "id": "myelinSheath",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4326.032506150663,
+                "y": -3896.4622430682193,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 8
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                4,
+                4
+            ],
+            [
+                3,
+                5,
+                4
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                6,
+                8,
+                6
+            ],
+            [
+                7,
+                8,
+                6
+            ],
+            [
+                8,
+                13,
+                10
+            ],
+            [
+                9,
+                10
+            ],
+            [
+                10,
+                11
+            ],
+            [
+                11,
+                12
+            ],
+            [
+                12,
+                7,
+                4
+            ]
+        ],
+        "area": {
+            "left": 2741.7501736111262,
+            "right": 5131.6720486110935,
+            "top": -3504.159375000003,
+            "bottom": -5097.440624999999
+        },
+        "palette": [ 5910026, 4136718, 14141569, 15329210 ]
+    },
+    {
+        "name": "Heart",
+        "background": {
+            "texture": "heart",
+            "x": 4061,
+            "y": 3039
+        },
+        "difficulty": 4,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 4682.527055292763,
+                "y": -3803.243887152778,
+                "data": {
+                    "targetWorld": 8,
+                    "targetNode": 11
+                }
+            },
+            {
+                "type": "level",
+                "x": 4440.026741556801,
+                "y": -3727.231980902777,
+                "data": {
+                    "id": "ventricularSeptalDefect",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4227.120955454506,
+                "y": -3571.0625121527773,
+                "data": {
+                    "id": "bloodClot",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4273.223349756874,
+                "y": -3351.5412777777774,
+                "data": {
+                    "id": "bloodPressureRegulation",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "level",
+                "x": 4557.851644861855,
+                "y": -3232.204230902778,
+                "data": {
+                    "id": "steadyPulse",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "level",
+                "x": 4762.421217981971,
+                "y": -3370.694137152777,
+                "data": {
+                    "id": "venaCava",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4726.308179346719,
+                "y": -3606.421637152778,
+                "data": {
+                    "id": "longTermStudy",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "ending",
+                "x": 4490.261273188273,
+                "y": -3476.771512152777,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4206.926429148354,
+                "y": -3177.6922465277776,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 14
+                }
+            }
+        ],
+        "edges": [
+            [0, 1],
+            [1, 2],
+            [2, 3],
+            [3, 4],
+            [4, 5],
+            [5, 6],
+            [0, 6],
+            [1, 6],
+            [1, 7, 4],
+            [2, 7, 4],
+            [3, 7, 4],
+            [4, 7, 4],
+            [5, 7, 4],
+            [6, 7, 4],
+            [3, 8, 6]
+        ],
+        "area": {
+            "left": 3675.886354166665,
+            "right": 5267.046979166666,
+            "top": -2962.590902777778,
+            "bottom": -4023.3646527777773
+        },
+        "palette": [ 16519441, 6423574, 14396880, 15848676 ]
+    },
+    {
+        "name": "Left Lung",
+        "background": {
+            "texture": "leftLung",
+            "x": 4123,
+            "y": 2088
+        },
+        "difficulty": 3,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 4291.089837103109,
+                "y": -2900.5467647569485,
+                "data": {
+                    "targetWorld": 9,
+                    "targetNode": 12
+                }
+            },
+            {
+                "type": "level",
+                "x": 4482.229615049578,
+                "y": -2763.7415303819503,
+                "data": {
+                    "id": "quadrupeds",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4334.437128980852,
+                "y": -2536.1700147569522,
+                "data": {
+                    "id": "corona",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4698.90526041243,
+                "y": -2923.124936631948,
+                "data": {
+                    "id": "helicobacterPylori",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4885.965485517714,
+                "y": -2801.872967881949,
+                "data": {
+                    "id": "diplopia",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "level",
+                "x": 4812.426883756849,
+                "y": -3190.720194444444,
+                "data": {
+                    "id": "thymicBody",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 4588.073258589004,
+                "y": -3314.7224991319426,
+                "data": {
+                    "id": "pneumothorax",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 5011.3946087171735,
+                "y": -3401.981522569441,
+                "data": {
+                    "id": "enzymeActivator",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5235.6166260130085,
+                "y": -3332.251694444442,
+                "data": {
+                    "id": "headache",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 4985.467160101143,
+                "y": -3666.3520694444387,
+                "data": {
+                    "id": "chainReaction",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 5248.384233381474,
+                "y": -3802.445741319436,
+                "data": {
+                    "id": "chainReactionIi",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4718.914013151378,
+                "y": -3713.135655381937,
+                "data": {
+                    "targetWorld": 7,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4299.463317922807,
+                "y": -2291.6202100694536,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 12
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                9,
+                10
+            ],
+            [
+                9,
+                11,
+                6
+            ],
+            [
+                2,
+                12,
+                10
+            ]
+        ],
+        "area": {
+            "left": 3183.9335243055675,
+            "right": 6282.377586805543,
+            "top": -2016.4297569444575,
+            "bottom": -4082.0591319444325
+        },
+        "palette": [ 677722, 927295, 11459282, 13955561 ]
+    },
+    {
+        "name": "Right Lung",
+        "background": {
+            "texture": "rightLung",
+            "x": 2636,
+            "y": 2074
+        },
+        "difficulty": 3,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 2841.7512705654635,
+                "y": -3796.477253472216,
+                "data": {
+                    "targetWorld": 6,
+                    "targetNode": 8
+                }
+            },
+            {
+                "type": "level",
+                "x": 3142.500397289704,
+                "y": -3614.5654565972163,
+                "data": {
+                    "id": "tripleTherapy",
+                    "difficulty": 1
+                }
+            },
+            {
+                "type": "level",
+                "x": 3418.438544872707,
+                "y": -3722.887237847216,
+                "data": {
+                    "id": "motorSkills",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3151.4144738430473,
+                "y": -3337.3326440972196,
+                "data": {
+                    "id": "plateaus",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 2895.7723761257666,
+                "y": -3248.89122222222,
+                "data": {
+                    "id": "endoscopicSurgery",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3385.5555485348177,
+                "y": -3203.484862847221,
+                "data": {
+                    "id": "pons",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3640.815981106224,
+                "y": -3320.48944097222,
+                "data": {
+                    "id": "dialysis",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3397.141986706205,
+                "y": -2962.7864409722233,
+                "data": {
+                    "id": "cellWall",
+                    "difficulty": 2
+                }
+            },
+            {
+                "type": "level",
+                "x": 3166.8042787899485,
+                "y": -2785.618972222224,
+                "data": {
+                    "id": "lockedInSyndrome",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3600.411760036889,
+                "y": -2800.8973159722245,
+                "data": {
+                    "id": "sickleCellAnemia",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3823.0741055874223,
+                "y": -2920.938472222222,
+                "data": {
+                    "id": "atlas",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "level",
+                "x": 3628.057742168848,
+                "y": -2547.0089565972257,
+                "data": {
+                    "id": "migraine",
+                    "difficulty": 3
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3859.667355648462,
+                "y": -2435.6505972222267,
+                "data": {
+                    "targetWorld": 8,
+                    "targetNode": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3453.4132869381397,
+                "y": -2422.222894097226,
+                "data": {
+                    "targetWorld": 10,
+                    "targetNode": 10
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                9,
+                10
+            ],
+            [
+                9,
+                11
+            ],
+            [
+                11,
+                12,
+                7
+            ],
+            [
+                11,
+                13,
+                11
+            ]
+        ],
+        "area": {
+            "left": 1887.4239236111143,
+            "right": 4961.998298611107,
+            "top": -2035.7640972222302,
+            "bottom": -4085.4803472222134
+        },
+        "palette": [ 677722, 927295, 11459282, 13955561 ]
+    },
+    {
+        "name": "Brain",
+        "background": {
+            "texture": "brain",
+            "x": 3550,
+            "y": 275
+        },
+        "difficulty": 4,
+        "nodes": [
+            {
+                "type": "exit",
+                "x": 4289.44576315138,
+                "y": -952.5748940972226,
+                "data": {
+                    "targetWorld": 0,
+                    "targetNode": 8
+                }
+            },
+            {
+                "type": "level",
+                "x": 4169.519164259169,
+                "y": -829.6813003472226,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4442.876068021986,
+                "y": -665.8231753472221,
+                "data": {
+                    "targetWorld": 1,
+                    "targetNode": 10
+                }
+            },
+            {
+                "type": "level",
+                "x": 4255.642023985121,
+                "y": -667.1886597222217,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4331.575756651137,
+                "y": -399.5537222222224,
+                "data": {
+                    "targetWorld": 2,
+                    "targetNode": 11
+                }
+            },
+            {
+                "type": "level",
+                "x": 4183.307356092665,
+                "y": -527.9092534722224,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4107.609649534439,
+                "y": -364.05112847222244,
+                "data": {
+                    "targetWorld": 5,
+                    "targetNode": 5
+                }
+            },
+            {
+                "type": "level",
+                "x": 3919.3394908888085,
+                "y": -366.7820972222229,
+                "data": {
+                    "id": "muscleRelaxant",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3741.9332006056084,
+                "y": -411.8430815972224,
+                "data": {
+                    "targetWorld": 6,
+                    "targetNode": 13
+                }
+            },
+            {
+                "type": "level",
+                "x": 3876.5467574140775,
+                "y": -541.5640972222227,
+                "data": {
+                    "id": "synapse",
+                    "difficulty": 4
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3634.161279524065,
+                "y": -672.6505972222224,
+                "data": {
+                    "targetWorld": 9,
+                    "targetNode": 13
+                }
+            },
+            {
+                "type": "level",
+                "x": 3828.5894526655434,
+                "y": -671.2851128472225,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 3777.901179167008,
+                "y": -948.4784409722224,
+                "data": {
+                    "targetWorld": 8,
+                    "targetNode": 12
+                }
+            },
+            {
+                "type": "level",
+                "x": 3892.5325256635906,
+                "y": -826.9503315972221,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            },
+            {
+                "type": "exit",
+                "x": 4029.677029096816,
+                "y": -1065.9100972222222,
+                "data": {
+                    "targetWorld": 7,
+                    "targetNode": 8
+                }
+            },
+            {
+                "type": "ending",
+                "x": 4028.278207700943,
+                "y": -783.2548315972226,
+                "data": {
+                    "id": "todo",
+                    "difficulty": 0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                10,
+                11
+            ],
+            [
+                12,
+                13
+            ],
+            [
+                14,
+                15,
+                7
+            ]
+        ],
+        "area": {
+            "left": 3278.993993055561,
+            "right": 4753.717118055552,
+            "top": -213.84784722222253,
+            "bottom": -1196.996597222222
+        },
+        "palette": [ 7811976, 4460902, 13408682, 16755421 ]
+    }
+]

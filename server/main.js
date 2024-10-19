@@ -4,6 +4,7 @@ import cors from "cors";
 import pgPromise from "pg-promise";
 import { Level } from "../model/level.js";
 import { LEVELS } from "../levels/levels.js";
+import { MAPPING, WORLDS } from "./map-ids.js";
 const app = express();
 const port = process.env.PORT || 3000;
 const pgConString = process.env.PG_CON_STRING || 'postgres://postgres:postgres@localhost:5432';
@@ -67,6 +68,34 @@ app.get('/api/getLevelSolutions/:levelId', (req, res) => {
         res.status(501).send('database error');
     });
 });
+app.get('/api/solutionsBy/:playerId', (req, res) => {
+    connection.any("SELECT level, steps FROM solutions WHERE player=${player} ORDER BY version ASC", { player: req.params.playerId }).then((solutions) => {
+        const resObj = {};
+        for (const s of solutions) {
+            resObj[s.level] = s.steps;
+        }
+        res.json(resObj);
+    }).catch((e) => {
+        console.log('Error: ', e);
+        res.status(501).send('database error');
+    });
+});
+app.get('/api/completitionCounts', (req, res) => {
+    connection.any("SELECT level, COUNT(*) FROM (SELECT DISTINCT level, player from solutions) group by level").then((counts) => {
+        const solvers = WORLDS.map(world => {
+            return world.map(lvl => ({ levelName: lvl, solvers: 0 }));
+        });
+        for (const c of counts) {
+            const mapping = MAPPING[c.level];
+            solvers[mapping.world][mapping.level].solvers = Number.parseInt(c.count);
+        }
+        res.json(solvers);
+    }).catch((e) => {
+        console.log('Error: ', e);
+        res.status(501).send('database error');
+    });
+});
+app.use(express.static('static'));
 app.listen(port, () => {
     console.log('listening on port ' + port);
 });
